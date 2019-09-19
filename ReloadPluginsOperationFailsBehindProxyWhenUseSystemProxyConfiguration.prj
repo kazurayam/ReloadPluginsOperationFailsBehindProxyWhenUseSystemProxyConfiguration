@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>ReloadPluginsOperationFailsBehindProxyWhenUseSystemProxyConfigurationWithProxyPac</name>
+   <name>ReloadPluginsOperationFailsBehindProxyWhenUseSystemProxyConfiguration</name>
    <tag></tag>
    <UUID>0eaa6d2d-1aa3-46c3-9257-c6aab7195197</UUID>
    <migratedVersion>5.9.0</migratedVersion>
