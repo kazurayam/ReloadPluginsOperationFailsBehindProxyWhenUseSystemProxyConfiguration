@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1_getIntranetHost</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e89a3f4d-2626-4170-ac07-95a1dc97220b</testCaseGuid>
+</TestCaseEntity>

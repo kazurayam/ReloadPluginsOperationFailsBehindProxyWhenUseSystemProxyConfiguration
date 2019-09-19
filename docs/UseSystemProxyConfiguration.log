@@ -1,0 +1,359 @@
+katalon.versionNumber=6.3.3
+katalon.buildNumber=11
+!SESSION 2019-09-19 14:25:37.639 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -clear
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault -clear
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-19 14:25:39.851
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'katalon.composer.objectrepository.handledmenuitem.spyweb'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS missing message: BTN_ADDTESTSUITE in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS missing message: MSG_FORUM_SEARCH in: com.kms.katalon.constants.messages
+
+!ENTRY org.eclipse.e4.ui.workbench 1 0 2019-09-19 14:25:50.609
+!MESSAGE Credentials found. Reloading plugins.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-19 14:25:50.624
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-19 14:25:50.624
+!MESSAGE A conflict occurred for CTRL+SHIFT+D:
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Display,Display,
+		Display result of evaluating selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@139da216,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+D,
+	ParameterizedCommand(Command(com.kms.katalon.composer.execution.command.debug,,
+		Debug,
+		Category(org.eclipse.e4.ui.model.application.MApplication,Application Category,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a1d926b,
+		[Parameter(com.kms.katalon.composer.execution.runMode,Run Mode,null,true)],,true),[org.eclipse.core.commands.Parameterization@de6e4672]),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow ,,,system)
+
+Thu Sep 19 14:26:11 JST 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:259)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.sendAndReceiveData(ServerAPICommunicationUtil.java:231)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:123)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.post(ServerAPICommunicationUtil.java:52)
+	at com.kms.katalon.tracking.service.TrackingApiService.post(TrackingApiService.java:24)
+	at com.kms.katalon.tracking.service.TrackingService.sendEventPayload(TrackingService.java:38)
+	at com.kms.katalon.tracking.service.TrackingService.lambda$0(TrackingService.java:24)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-09-19 14:26:11.286
+!MESSAGE 
+!STACK 0
+com.kms.katalon.composer.update.UpdateException: java.net.ConnectException: Connection timed out: connect
+	at com.kms.katalon.composer.update.download.FileDownloader.download(FileDownloader.java:92)
+	at com.kms.katalon.composer.update.jobs.CheckForUpdatesJob.run(CheckForUpdatesJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:263)
+	at com.kms.katalon.composer.update.download.FileDownloader.download(FileDownloader.java:72)
+	... 2 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-09-19 14:26:32.709
+!MESSAGE 
+!STACK 0
+com.kms.katalon.plugin.models.ReloadPluginsException: Unexpected error occurs during executing reload plugins under account: credential: kazuaki.urayama@gmail.com, endpoint: https://store.katalon.com/api/products/ks?appVersion=6.3.3
+	at com.kms.katalon.plugin.service.PluginService.reloadPlugins(PluginService.java:189)
+	at com.kms.katalon.composer.handlers.ReloadPluginsHandler$1.run(ReloadPluginsHandler.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.kms.katalon.plugin.models.KStoreClientExceptionWithInfo: Unexpected error occurs during executing get latest plugins
+	at com.kms.katalon.plugin.service.KStoreRestClient.getLatestPlugins(KStoreRestClient.java:80)
+	at com.kms.katalon.plugin.service.PluginService.fetchLatestPlugins(PluginService.java:201)
+	at com.kms.katalon.plugin.service.PluginService.reloadPlugins(PluginService.java:74)
+	... 2 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to store.katalon.com:443 [store.katalon.com/34.235.178.7, store.katalon.com/54.86.12.89] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.kms.katalon.plugin.service.KStoreRestClient.executeGetRequest(KStoreRestClient.java:259)
+	at com.kms.katalon.plugin.service.KStoreRestClient.getLatestPlugins(KStoreRestClient.java:59)
+	... 4 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 15 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2019-09-19 14:26:32.724
+!MESSAGE Failed to reload plugins.
+
+!ENTRY com.kms.katalon 4 0 2019-09-19 14:26:32.724
+!MESSAGE Error reloading plugins
+!STACK 0
+java.lang.Exception: com.kms.katalon.plugin.models.ReloadPluginsException: Unexpected error occurs during executing reload plugins under account: credential: kazuaki.urayama@gmail.com, endpoint: https://store.katalon.com/api/products/ks?appVersion=6.3.3
+	at com.kms.katalon.plugin.service.PluginService.reloadPlugins(PluginService.java:189)
+	at com.kms.katalon.composer.handlers.ReloadPluginsHandler$1.run(ReloadPluginsHandler.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: com.kms.katalon.plugin.models.KStoreClientExceptionWithInfo: Unexpected error occurs during executing get latest plugins
+	at com.kms.katalon.plugin.service.KStoreRestClient.getLatestPlugins(KStoreRestClient.java:80)
+	at com.kms.katalon.plugin.service.PluginService.fetchLatestPlugins(PluginService.java:201)
+	at com.kms.katalon.plugin.service.PluginService.reloadPlugins(PluginService.java:74)
+	... 2 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to store.katalon.com:443 [store.katalon.com/34.235.178.7, store.katalon.com/54.86.12.89] failed: Connection timed out: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.kms.katalon.plugin.service.KStoreRestClient.executeGetRequest(KStoreRestClient.java:259)
+	at com.kms.katalon.plugin.service.KStoreRestClient.getLatestPlugins(KStoreRestClient.java:59)
+	... 4 more
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:337)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 15 more
+
+	at com.kms.katalon.composer.handlers.ReloadPluginsHandler$1.run(ReloadPluginsHandler.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+Thu Sep 19 14:26:32 JST 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1564)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:347)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.sendAndReceiveData(ServerAPICommunicationUtil.java:236)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:123)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:115)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.getJsonInformation(ServerAPICommunicationUtil.java:223)
+	at com.kms.katalon.application.utils.VersionUtil.getLatestVersion(VersionUtil.java:34)
+	at com.kms.katalon.application.utils.VersionUtil.hasNewVersion(VersionUtil.java:18)
+	at com.kms.katalon.composer.handlers.CheckForUpdatesHandler$3.lambda$4(CheckForUpdatesHandler.java:124)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+
+Thu Sep 19 14:26:32 JST 2019
+Cannot send request, retry to send.
+
+Warning: NLS unused message: Key in: com.kms.katalon.composer.webui.constants.composerWebuiMessages
+Warning: NLS missing message: DIA_CONFIRM_INSTALL_WEBDRIVER in: com.kms.katalon.composer.webui.constants.composerWebuiMessages
+Warning: NLS missing message: DIA_CONFIRM_INSTALL_WEBDRIVER_TITLE in: com.kms.katalon.composer.webui.constants.composerWebuiMessages
+
+Thu Sep 19 14:26:57 JST 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:259)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.sendAndReceiveData(ServerAPICommunicationUtil.java:231)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:123)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.post(ServerAPICommunicationUtil.java:52)
+	at com.kms.katalon.tracking.service.TrackingApiService.post(TrackingApiService.java:24)
+	at com.kms.katalon.tracking.service.TrackingService.sendEventPayload(TrackingService.java:38)
+	at com.kms.katalon.tracking.service.TrackingService.lambda$0(TrackingService.java:24)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+
+Thu Sep 19 14:26:57 JST 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:259)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.sendAndReceiveData(ServerAPICommunicationUtil.java:231)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:123)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.post(ServerAPICommunicationUtil.java:52)
+	at com.kms.katalon.tracking.service.TrackingApiService.post(TrackingApiService.java:24)
+	at com.kms.katalon.tracking.service.TrackingService.sendEventPayload(TrackingService.java:38)
+	at com.kms.katalon.tracking.service.TrackingService.lambda$0(TrackingService.java:24)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+Launcher status after execution process completed: Running
+
+Thu Sep 19 14:27:02 JST 2019
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:173)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1199)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1050)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1334)
+	at sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1309)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:259)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.sendAndReceiveData(ServerAPICommunicationUtil.java:231)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.invoke(ServerAPICommunicationUtil.java:123)
+	at com.kms.katalon.application.utils.ServerAPICommunicationUtil.post(ServerAPICommunicationUtil.java:52)
+	at com.kms.katalon.tracking.service.TrackingApiService.post(TrackingApiService.java:24)
+	at com.kms.katalon.tracking.service.TrackingService.sendEventPayload(TrackingService.java:38)
+	at com.kms.katalon.tracking.service.TrackingService.lambda$0(TrackingService.java:24)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-09-19 14:27:06.875
+!MESSAGE The workspace will exit with unsaved changes in this session.
